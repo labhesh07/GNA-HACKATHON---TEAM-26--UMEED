@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Document</title>
+    <style>  
+    .homebtn{
+        background-color: #041375;
+    padding:12px;
+    width: 721px;
+    height: 47px;
+    margin: auto;
+} 
+.home{
+text-align: center;
+text-decoration:none;
+margin: auto;
+color: white;
+}
+    .ineedhelp{
+        background-image: url("https://www.wikihow.com/images/thumb/7/72/Find-Yourself-Step-15.jpg/aid12166-v4-1200px-Find-Yourself-Step-15.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    } @import "http://fonts.googleapis.com/css?family=Ubuntu";
+        div#main1{
+        align-content: center;
+        width:850px;
+        height:670px;
+        margin:0 auto;
+        font-family:'Ubuntu',sans-serif;
+        margin-right:180px;
+        }
+        div#form_sample{
+        text-align:center;
+        border:1px solid rgba(157, 157, 157, 0.513);
+        width:620px;
+        padding:0 50px 15px;
+        margin-top:20px;
+        background-color:rgba(157, 157, 157, 0.442);
+        border-radius:6px;
+        float:left
+        }
+        #main1 h1{
+        margin-top:40px
+        }
+        hr{
+        margin-top:-5px
+        }
+        label{
+        float:left;
+        font-size:16px
+        }
+        input[type="text"]{
+        width:100%;
+        margin-top:10px;
+        height:35px;
+        margin-bottom:25px;
+        padding:10px;
+        
+        }
+        textarea{
+        width:100%;
+        padding:10px;
+        margin-bottom:25px;
+        margin-top:10px;
+        height:100px;
+        resize:none
+        }
+        input[type="submit"]{
+        width:100%;
+        padding:10px 45px;
+        background-color:#041375;
+        border:none;
+        color:#fff;
+        font-size:18px;
+        font-weight:700;
+        cursor:pointer;
+        font-family:'Ubuntu',sans-serif
+        }
+    
+        div#fugo{
+        float:right
+        }</style>
+</head>
+<body class="ineedhelp">
+    <div id="main1">
+        <div id="form_sample"></div> 
+        <script>
+        
+        var x = document.getElementById("form_sample");
+        var createform = document.createElement('form');
+        createform.setAttribute("action", "");
+        createform.setAttribute("method", "post");
+        x.appendChild(createform);
+        
+        var heading = document.createElement('h2');
+        heading.innerHTML = "I Need Help ";
+        createform.appendChild(heading);
+        
+        var line = document.createElement('hr');
+        createform.appendChild(line);
+        
+        var linebreak = document.createElement('br');
+        createform.appendChild(linebreak);
+        
+        var namelabel = document.createElement('label');
+        namelabel.innerHTML = "Your Name : ";
+        createform.appendChild(namelabel);
+        
+        var inputelement = document.createElement('input'); 
+        inputelement.setAttribute("type", "text");
+        inputelement.setAttribute("name", "dname");
+        createform.appendChild(inputelement);
+        
+        var linebreak = document.createElement('br');
+        createform.appendChild(linebreak);
+        
+        var emaillabel = document.createElement('label');
+        emaillabel.innerHTML = "Your Email : ";
+        createform.appendChild(emaillabel);
+        
+        var emailelement = document.createElement('input');
+        emailelement.setAttribute("type", "text");
+        emailelement.setAttribute("name", "demail");
+        createform.appendChild(emailelement);
+        
+        var emailbreak = document.createElement('br');
+        createform.appendChild(emailbreak);
+        
+        var messagelabel = document.createElement('label'); 
+        messagelabel.innerHTML = "Your Needs : ";
+        createform.appendChild(messagelabel);
+        
+        var texareaelement = document.createElement('textarea');
+        texareaelement.setAttribute("name", "dmessage");
+        createform.appendChild(texareaelement);
+        
+        var messagebreak = document.createElement('br');
+        createform.appendChild(messagebreak);
+        
+        var submitelement = document.createElement('input');
+        submitelement.setAttribute("type", "submit");
+        submitelement.setAttribute("name", "submit");
+        submitelement.setAttribute("value", "Submit");
+        { alert("Your Request has been submitted . Thank You!");
+        }
+        createform.appendChild(submitelement);
+        
+        </script>
+       <div> <button type="button" class="homebtn" ><a href="index2.html"><h2 class="home">HOME</h2></a></button></div></div>
+</body>
+</html>

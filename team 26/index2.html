@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link href='https://fonts.googleapis.com/css?family=New Rocker' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Bellefair' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Yatra One' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Bonbon' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Princess Sofia' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Amarante' rel='stylesheet'>
+<link rel="icon" href="./images/favicon.png" sizes="16x16">
+<head>
+    <title>Angels At Your Doorstep!</title>
+    <link rel="icon" type="image/x-icon" href="https://cdn.dribbble.com/users/371199/screenshots/12730665/media/f953507c9f511e4e2877ba151447d7d7.jpg?compress=1&amp;resize=768x576&amp;vertical=top">
+    <style>
+        .header{
+          text-align: center;
+          background-size:cover;
+          background-repeat: no-repeat;
+          margin: auto;
+    
+        }
+        .mainimg{
+            background-color: whitesmoke;
+        }
+    
+        .navbar{
+          background-color: black;
+          text-decoration: none;
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          padding: 15px;
+          word-spacing: 37px;
+          
+        }
+        
+    .mainp,.blog,.trip{
+      text-align: left;
+      text-decoration: none;
+      color: white;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .login,.right{
+
+      text-align: right;
+      text-decoration: none;
+      color: white;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    div.mainp,.blog,.trip{
+      text-align: left;
+    }
+    div.login,.right {
+      text-align: right;
+    }
+    .navbar a:hover {
+        background-color: #ddd;
+        color: black;
+        padding: 15px;
+        word-spacing: 37px;
+      }
+
+    body{
+      background-color: rgb(255, 255, 255);
+    }
+    
+    mark{
+      background-color: rgb(234, 233, 233);
+    }
+    .markaayd{
+      background-color:rgba(206, 201, 201, 0.397) ;
+    }
+
+    .h11{
+      background-image: url("");
+      text-align: center;
+      padding: 100px;
+      font-size:50px;
+      color: rgb(0, 0, 0);
+    }
+    .oliver{
+    background-image: url("A_poor_child.jpg");
+      color: rgb(255, 255, 255);
+      text-align:end ;
+      font-weight: bolder;
+      font-size:25px;
+      font-style: italic  ;
+      padding: 150px;
+      background-repeat: no-repeat;
+      background-size:cover;
+      height:250px ;
+      width: 600px;
+      margin-left: auto;
+  margin-right: auto;
+    }
+    .mark1{
+        background-color: rgb(197, 195, 195);
+        color: black;
+    }
+    .ps{
+      font-weight: bold;
+      font-size: xx-large;
+    }
+    .p1{
+      font-size:x-large ;
+    }
+    .tourist{
+        background-image: url("https://cdn.dribbble.com/users/371199/screenshots/12730665/media/f953507c9f511e4e2877ba151447d7d7.jpg?compress=1&resize=768x576&vertical=top");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position:center;
+      padding: 200px;
+      text-align: center;
+      font-weight: bold;
+      font-size: large;
+    }
+    
+    .row1 {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+.flip-box {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px; 
+}
+
+
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; 
+  backface-visibility: hidden;
+}
+
+.flip-box-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-box-back {
+  background-color: rgb(4, 18, 62);
+  color: white;
+  transform: rotateY(180deg);
+}
+
+    .container {
+  position: relative;
+  border-radius: 10px;
+  background-color: #f2f2f2;
+  padding: 20px 0 30px 0;
+  
+
+}
+input,
+.btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  margin: 5px 0;
+  opacity: 0.85;
+  display: inline-block;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration: none;
+}
+
+input:hover,
+.btn:hover {
+  opacity: 1;
+}
+
+
+.fb {
+  background-color: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background-color: #55ACEE;
+  color: white;
+}
+
+.google {
+  background-color: #dd4b39;
+  color: white;
+}
+
+
+input[type=submit] {
+  background-color: #43a648;
+  color: white;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #04AA6D;
+}
+
+
+.col {
+  float: left;
+  width: 200px;
+  margin: auto;
+  padding: 0 50px;
+  margin-top: 6px;
+  text-align: center;
+}
+
+.row:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.hide-md-lg {
+  display: none;
+}
+
+@media screen and (max-width:650px) {
+  .col {
+    width: 100%;
+    margin-top: 0;
+  }
+
+
+  .hide-md-lg {
+    display: block;
+    text-align: center;
+  }
+}
+
+#menubar {
+  width: 898px;
+  height: 52px;
+  padding: 10;
+  background: #000;
+}
+
+ul#menu,
+ul#menu li {
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: auto;
+}
+
+ul#menu li {
+  list-style: none;
+}
+
+ul#menu li a {
+  letter-spacing: 0.1em;
+  font: normal 100% "Bellefair", arial, sans-serif;
+  display: block;
+  float: left;
+  height: 17px;
+  margin: 10px 0 0 10px;
+  padding: 9px 26px 6px 26px;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: transparent;
+}
+
+ul#menu li a:hover,
+ul#menu li.selected a,
+ul#menu li.selected a:hover {
+  color: #32ccb7;
+  background: #fff;
+}
+#main,
+#logo,
+#menubar,
+#site_content,
+#footer {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#header {
+  background: transparent;
+  height: 202px;
+}
+
+#logo {
+  width: 898px;
+  position: relative;
+  height: 148px;
+}
+
+#logo #logo_text {
+  position: absolute;
+  top: 20px;
+  left: 0;
+}
+
+#logo h1,
+#logo h2 {
+  font: normal 300% "Amarante", cursive, sans-serif;
+  border-bottom: 0;
+  text-transform: none;
+  margin: 0;
+}
+
+#logo_text h1,
+#logo_text h1 a,
+#logo_text h1 a:hover {
+  padding: 22px 0 0 0;
+  color: #000;
+  letter-spacing: -1px;
+  text-decoration: none;
+}
+
+#logo_text h1 a .logo_colour {
+  color: #32ccb7;
+  font: italic 36px garamond;
+  font-family: "Princess sofia";
+}
+
+#logo_text h1 a .logo_colour2 {
+  color: #000000;
+  font: italic 36px garamond;
+  font-family: "Princess sofia";
+}
+
+#logo_text h2 {
+  font-size: 100%;
+  padding: 4px 0 0 0;
+  color: #000;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font: normal 0.8em "Bellefair", arial, sans-serif;
+  background: url(background.png) repeat;
+  color: #fff;
+}
+
+p {
+  padding: 0 0 20px 0;
+  line-height: 1.7em;
+}
+
+img {
+  border: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font: normal 175% "Bellefair", arial, sans-serif;
+  color: #32ccb7;
+  margin: 0 0 15px 0;
+  padding: 15px 0 5px 0;
+}
+
+h2 {
+  font: normal 175% "Amarante", arial, sans-serif;
+}
+
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0 0 5px 0;
+  font: normal 120% "Bellefair", arial, sans-serif;
+}
+
+h5,
+h6 {
+  font: italic 95% "Bellefair", arial, sans-serif;
+  padding: 0 0 15px 0;
+}
+
+a,
+a:hover {
+  outline: none;
+  text-decoration: underline;
+  color: #fff;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.left {
+  float: left;
+  width: auto;
+  margin-right: 10px;
+}
+
+.right {
+  float: right;
+  width: auto;
+  margin-left: 10px;
+}
+
+.center {
+  display: block;
+  text-align: center;
+  margin: 20px auto;
+}
+
+blockquote {
+  margin: 20px 0;
+  padding: 10px 20px 0 20px;
+  border: 1px solid #e5e5db;
+  background: #fff;
+}
+
+ul {
+  margin: 2px 0 22px 17px;
+}
+
+ul li {
+  list-style-type: circle;
+  margin: 0 0 6px 0;
+  padding: 0 0 4px 5px;
+}
+
+ol {
+  margin: 8px 0 22px 20px;
+}
+
+ol li {
+  margin: 0 0 11px 0;
+}
+
+    </style>
+</head>
+<body data-gr-c-s-loaded="true" class="vsc-initialized">
+  <div id="main">
+  <div id="header">
+    <div id="logo">
+      <div id="logo_text">
+        <!-- class="logo_colour", allows you to change the colour of the text -->
+        <h1><a href="#"><span class="logo_colour"> Umeed!!! &nbsp</span><span class="logo_colour2">Making Sure Your Safety</span></a></h1>
+        <h2>Take care of yourself. Your family loves you ! ❤️ </h2>
+      </div>
+    </div>
+        <div id="menubar">
+          <ul id="menu">
+            <li class="selected"><a href="#"> AAYD </a></li>
+            <li><a href="donate.html" class="blog">Donate</a></li>
+            <li><a href="need.html" class="trip">Needs</a></li>
+            <li><a href="fundraiser.html"  class="trip">Fund-Raiser</a></li>
+            <li><a href="loginandsignup.html" class="login">Login</a></li>
+            <li><a href="C:\Users\labhesh phull\OneDrive\Desktop\Angels-At-Your-Doorstep-main - Copy\Angels-At-Your-Doorstep-main\AAYD!!\Women-safety-web-application-master\index.html" class="mainp">Home</a></li>
+        </ul></div>
+        </div>
+        </div>
+    </br>
+    <br>
+    <p vertical-align="top" class="oliver"><mark class="mark1">“No one is useless in this world who lightens the burdens of another.”</mark> <br>
+    <sub class="mark1">— Charles Dickens</sub></p>
+    <br>
+    <div class="tourist" id="about-us">
+        <h2 class="ps"><mark class="markaayd">What is Angels At Your Doorstep?</mark></h2>
+        <p class="p1"><mark class="markaayd">Charity means helping someone who is in need of it.It is a humanitarn act. It involves giving money,goods or time and effort  to those who need it.This site provides you a platform for social welfare where you can donates old clothes , books , used household items etc.  </mark></p></div>
+<br> <hr>
+
+<div class="row1">
+    <div class="column">
+      <img src="orphanage.png" alt="Snow" style="width:100%">
+    </div>
+    <div class="column">
+      <img src="handcapped.png" alt="Forest" style="width:100%">
+    </div>
+    <div class="column">
+      <img src="widow.png" alt="Mountains" style="width:100%">
+    </div>
+    <div class="column">
+        <img src="oldagehome.png" alt="Mountains" style="width:100%">
+      </div>
+  </div>
+  <br><hr>
+  <div class="flip-box">
+    <div class="flip-box-inner">
+      <div class="flip-box-front">
+        <img src="orphanage1.jpg" alt="Orphanage" style="width:300px;height:200px" class="img1">
+      </div>
+      <div class="flip-box-back">
+        <h2>Orphanage</h2>
+        <p>Children living in orphanages tend to lead fairly structured lives. Due to the nature of an orphanage – many children, and fewer caregivers – life happens on a schedule.</p>
+      </div>
+    </div>
+  </div>
+ 
+  <div class="flip-box">
+    <div class="flip-box-inner">
+      <div class="flip-box-front">
+        <img src="handicapped1.jpg" alt="Orphanage" style="width:300px;height:200px">
+      </div>
+      <div class="flip-box-back">
+        <h2>Handicapped</h2>
+        <p>Disability is a global public health issue – it affects one in seven people worldwide. Everybody is likely to experience disability at some point in life.</div>
+    </div>
+  </div>
+ 
+  <div class="flip-box">
+    <div class="flip-box-inner">
+      <div class="flip-box-front">
+        <img src="Widow1.jpg" alt="Orphanage" style="width:300px;height:200px">
+      </div>
+      <div class="flip-box-back">
+        <h2>Widows</h2>
+        <p>As widows move through their own experiences of grief, loss, or trauma after the death of a spouse, they may also face economic insecurity, discrimination, stigmatization, and harmful traditional practices on the basis of their marital status.</p>
+      </div>
+    </div>
+  </div>
+  <div class="flip-box">
+    <div class="flip-box-inner">
+      <div class="flip-box-front">
+        <img src="Old-age-home1.jpg" alt="Orphanage" style="width:300px;height:200px">
+      </div>
+      <div class="flip-box-back">
+        <h2>Old Age Homes</h2>
+        <p>Only 3.6% of people over 65 years old are in nursing homes. Elderly men are likely to live with a spouse while elderly women are more likely to live alone. 4 in 5 older adults will battle at least one chronic condition or illness such as heart disorders, arthritis, or osteoporosis. 50% will battle at least two.</p>
+      </div>
+    </div>
+  </div>
+
+  <br><hr>
+  
+  <br><hr>
+      
+  
+</body>
+</html>
